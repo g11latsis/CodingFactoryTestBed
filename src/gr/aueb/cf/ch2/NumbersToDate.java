@@ -1,9 +1,10 @@
-package gr.aueb.cf.ch1;
+package gr.aueb.cf.ch2;
 
 import java.util.Scanner;
 
 /**
- * Εκτύπωση ημερομηνίας σε μορφή ΗΗ/ΜΜ/ΕΕ δεδομένων 3 ακέραιων
+ * Εκτύπωση ημερομηνίας σε μορφή
+ * ΗΗ/ΜΜ/ΕΕ δεδομένων 3 ακέραιων.
  *
  * @author Grigoris
  */
@@ -12,11 +13,10 @@ public class NumbersToDate {
         Scanner in = new Scanner(System.in);
         int day,month,year;
 
-        System.out.println("Παρακαλώ εισάγετε την ημέρα σε μορφή ακεραίου:");
+        System.out.println("Παρακαλώ εισάγετε τρεις ακέραιους αριθμούς:");
         day = in.nextInt();
-        System.out.println("Παρακαλώ εισάγετε τον μήνα σε μορφή ακεραίου:");
         month = in.nextInt();
-        System.out.println("Παρακαλώ εισάγετε το έτος σε μορφή ακεραίου:");
+
         //Με την χρήση του τελεστή % παίρνουμε τα 2 τελευταία ψηφία του έτους
         year = in.nextInt() % 100;
 
