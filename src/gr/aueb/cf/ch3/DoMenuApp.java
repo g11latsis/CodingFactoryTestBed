@@ -20,6 +20,8 @@ public class DoMenuApp {
             System.out.println("4.Αναζήτηση");
             System.out.println("5.Έξοδος");
 
+            choice = in.nextInt();
+
             if (choice == 1){
                 System.out.println("Επιλέξατε εισαγωγή");
             } else if (choice == 2) {
@@ -28,11 +30,13 @@ public class DoMenuApp {
                 System.out.println("Επιλέξατε ενημέρωση");
             } else if (choice == 4) {
                 System.out.println("Επιλέξατε διαγραφή");
-            }else if (choice == 5){
+            }else if (choice == 5) {
                 System.out.println("Επιλέξατε Έξοδος");
                 break;
-            };
-            choice = in.nextInt();
-        }while  (choice > 0 && choice <=5);
+            }else {
+                System.out.println("Εισάγετε έναν αριθμό από 1-5");
+            }
+
+        }while(choice != 5);
     }
 }
