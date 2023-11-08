@@ -1,6 +1,5 @@
 package gr.aueb.cf.ch4;
 
-
 import java.util.Scanner;
 
 /**

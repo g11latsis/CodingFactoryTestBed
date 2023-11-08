@@ -7,7 +7,7 @@ public class StarsDsc {
         Scanner scanner = new Scanner(System.in);
         int num = 0;
 
-        System.out.println("Please insert an integer");
+        System.out.println("Please insert an integer:");
         num = scanner.nextInt();
 
         if (num > 0) {
