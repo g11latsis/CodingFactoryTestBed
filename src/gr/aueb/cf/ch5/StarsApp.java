@@ -56,6 +56,7 @@ public class StarsApp {
         System.out.println("4.Εμφάνισε n γραμμές με αστεράκια 1 – n");
         System.out.println("5.Εμφάνισε n γραμμές με αστεράκια n – 1");
         System.out.println("6.Έξοδος από το πρόγραμμα");
+        System.out.println("Δώσε επιλογή:");
     }
 
     public static int getUserChoice() {
