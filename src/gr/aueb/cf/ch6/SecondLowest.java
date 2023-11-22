@@ -8,7 +8,7 @@ public class SecondLowest {
 
     public static void main(String[] args) {
 
-        int[] arr = {1, 5, 7, 15, 55, 3};
+        int[] arr = {1, 2, 7, 15, 55, 3};
         int lowest = getSecondMinPosition(arr);
         System.out.println(lowest);
     }

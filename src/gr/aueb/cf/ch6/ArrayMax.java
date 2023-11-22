@@ -11,7 +11,7 @@ public class ArrayMax {
         int maxPosition = 0;
 
         maxPosition = getMaxPosition(arr, 0, arr.length - 1);
-        System.out.printf("Largest element of is the %d and is in position %d. ",
+        System.out.printf("Largest element is the %d and is in position %d. ",
                 arr[maxPosition], maxPosition + 1);
     }
 
