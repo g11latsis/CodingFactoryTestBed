@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class ParkingLot {
 
     public static void main(String[] args) {
-        int[][] arr = {{1012, 1136}, {1317, 1417}, {1015, 1020}};
+        int[][] arr = {{1012, 1136}, {1317, 1417}, {1015, 1020},{1014, 1030}};
         int[][] newArr = arrayConversion(arr);
         print2DArray(newArr);
 
