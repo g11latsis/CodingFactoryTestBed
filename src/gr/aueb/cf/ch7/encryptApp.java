@@ -3,7 +3,7 @@ package gr.aueb.cf.ch7;
 import java.util.Scanner;
 
 /**
- * Encrypts a given string
+ * Encrypt a given string
  */
 public class encryptApp {
 
