@@ -16,10 +16,13 @@ public class decryptApp {
     }
 
     /**
-     * @param str   Given string
-     * @return      The decrypted string
+     * @param str Given string
+     * @return The decrypted string
      */
     public static String encrypt(String str) {
+        if (str.isEmpty()) {
+            System.out.println("Empty String!");
+        }
         StringBuilder encrypted = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {

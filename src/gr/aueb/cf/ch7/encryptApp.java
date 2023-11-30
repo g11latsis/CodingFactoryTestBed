@@ -11,16 +11,17 @@ public class encryptApp {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter a string to Encrypt :");
         String str = sc.nextLine();
-
         System.out.println(encrypt(str));
     }
 
     /**
-     *
-     * @param str   Given string
-     * @return      The encrypted string
+     * @param str Given string
+     * @return The encrypted string
      */
     public static String encrypt(String str) {
+        if (str.isEmpty()) {
+            System.out.println("Empty String!");
+        }
         StringBuilder encrypted = new StringBuilder();
 
         for (int i = 0; i < str.length(); i++) {
