@@ -42,6 +42,11 @@ public class studentsGrades {
         }
     }
 
+    /**
+     * @param grade1    First grade
+     * @param grade2    Second grade
+     * @return          Average of the grades
+     */
     public static int getAvg(int grade1, int grade2) {
         return (grade1 + grade2) / 2;
     }
@@ -58,7 +63,7 @@ public class studentsGrades {
             ps.print(name + " ");
             ps.println(getAvg(grade1, grade2));
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Fail to write data...");
         }
 
     }
@@ -76,7 +81,7 @@ public class studentsGrades {
             ps.print(grade1 + " ");
             ps.print(grade2);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Fail to write data...");
         }
     }
 
